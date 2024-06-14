@@ -1,0 +1,21 @@
+<!-- res/values/colors.xml -->
+<resources>
+    <!-- Warna Utama -->
+    <color name="colorPrimary">#4CAF50</color> <!-- Hijau -->
+
+    <!-- Warna Teks -->
+    <color name="textPrimary">#000000</color> <!-- Hitam -->
+    <color name="textSecondary">#757575</color> <!-- Abu-abu Gelap -->
+
+    <!-- Warna Latar Belakang -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- Putih -->
+
+    <!-- Warna Ikon -->
+    <color name="iconColor">#FFFFFF</color> <!-- Putih -->
+
+    <!-- Warna untuk Bottom Navigation -->
+    <color name="bottomNavBackground">#4CAF50</color> <!-- Hijau -->
+
+    <color name="white">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "677777817886",
+    "project_id": "klin-f3d32",
+    "storage_bucket": "klin-f3d32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677777817886:android:267769a4faffa7d5f6490f",
+        "android_client_info": {
+          "package_name": "com.example.projectmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0oNtsHwHj5KsxDJ5Dkv2T4e_-OTobubw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
