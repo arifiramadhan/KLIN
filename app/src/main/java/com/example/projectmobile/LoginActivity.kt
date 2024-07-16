@@ -34,8 +34,8 @@ class LoginActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     // Login successful
                     val user = auth.currentUser
-                    // Redirect to MainPageVolunter
-                    val intent = Intent(this, MainPageVolunter::class.java)
+                    // Redirect to MemilihRole
+                    val intent = Intent(this, MemilihRole::class.java)
                     startActivity(intent)
                     finish() // Close LoginActivity
                 } else {

@@ -8,7 +8,7 @@ import android.text.style.RelativeSizeSpan
 import android.text.style.StyleSpan
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
-import android.widget.TextView
+import android.content.Intent
 
 class MemilihRole : AppCompatActivity() {
 
@@ -23,6 +23,16 @@ class MemilihRole : AppCompatActivity() {
         setButtonText(buttonBasicUser, "Basic User", "Saya ingin meminta bantuan pembersihan")
         setButtonText(buttonVolunteer, "Volunteer", "Saya ingin bekerja paruh waktu untuk membersihkan lingkungan")
         setButtonText(buttonMitra, "Mitra", "Saya merupakan mitra KLIN untuk membersihkan lingkungan")
+
+        buttonBasicUser.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonMitra.setOnClickListener {
+            val intent = Intent(this, MitraHomeActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun setButtonText(button: Button, mainText: String, subText: String) {

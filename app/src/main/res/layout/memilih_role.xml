@@ -30,7 +30,7 @@
         android:textAlignment="viewStart"
         android:padding="30dp"
         android:textSize="21sp"
-        android:background="@drawable/background_memilihrole"
+        android:backgroundTint="#1E7622"
         android:layout_marginBottom="16dp"
         android:textColor="@android:color/white" />
 
@@ -43,9 +43,10 @@
         android:textAlignment="viewStart"
         android:padding="30dp"
         android:textSize="21sp"
-        android:background="@drawable/background_memilihrole"
-    android:layout_marginBottom="16dp"
-    android:textColor="@android:color/white" />
+        android:backgroundTint="#1E7622"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/white" />
+
     <Button
         android:id="@+id/buttonMitra"
         android:layout_width="match_parent"
@@ -55,7 +56,6 @@
         android:textAlignment="viewStart"
         android:padding="30dp"
         android:textSize="21sp"
-        android:background="@drawable/background_memilihrole"
-        android:backgroundTint="#329D3D"
+        android:backgroundTint="#1E7622"
         android:textColor="@android:color/white" />
 </LinearLayout>

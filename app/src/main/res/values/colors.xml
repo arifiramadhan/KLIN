@@ -1,12 +1,14 @@
 <!-- res/values/colors.xml -->
 <resources>
     <!-- Warna Utama -->
-    <color name="colorPrimary">#4CAF50</color> <!-- Hijau -->
+    <color name="colorPrimary">#1E7622</color> <!-- Hijau -->
 
     <!-- Warna Teks -->
     <color name="textPrimary">#000000</color> <!-- Hitam -->
-    <color name="textSecondary">#757575</color> <!-- Abu-abu Gelap -->
-
+    <color name="textSecondary">#D9D9D9</color> <!-- Abu-abu Gelap -->
+    <color name="lightGray">#F5F5F5</color>
+    <color name="darker_gray">#A9A9A9</color>
+    <color name="gray">#D3D3D3</color>
     <!-- Warna Latar Belakang -->
     <color name="backgroundColor">#FFFFFF</color> <!-- Putih -->
 
